@@ -1,6 +1,8 @@
+using System.Text.RegularExpressions;
+
 namespace Rcp.Utilities
 {
-    public class Regex
+    public class CommonRegex
     {
         /// <summary>
         ///     Validates SSN:

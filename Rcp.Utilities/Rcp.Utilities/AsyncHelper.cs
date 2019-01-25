@@ -1,6 +1,10 @@
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+
 namespace Rcp.Utilities
 {
-    public static class RunSync
+    public static class AsyncHelper
     {
         private static readonly TaskFactory _myTaskFactory = new
 
